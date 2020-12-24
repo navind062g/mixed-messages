@@ -127,4 +127,4 @@ const surveryApp = new MessageModel(
 let appIdeas = [cardMemoryApp, christmasLightsApp, flashCardsApp, movieDatabaseApp, notesApp, podomoroClockApp, quizApp, surveryApp, toDoApp, weatherApp];
 
 //export the array for script class
-export default appIdeas;
+export { appIdeas };

@@ -11,14 +11,12 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-  height: 100vh;
   background-color: #FBEAEB;
+  color: #9EE493;
 }
 
 h1 {
   color: #2E3C7E;
-  font-size: 4rem;
 }
 
 .container {
@@ -29,10 +27,10 @@ h1 {
 }
 
 .get-next-idea {
-  margin: 30% auto;
+  margin: 20% auto;
   background-color: #2E3C7E;
   color: white;
-  margin: 2rem auto;
+  margin: 1rem auto;
   min-width: 150px;
   min-height: 50px;
   border-radius: 5px;
@@ -53,28 +51,52 @@ h1 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 80vh;
+  width: 90vh;
   border-radius: 1rem;
   padding: 5%;
   box-shadow: 10px 10px 10px 10px rgb(192,192,192);
 }
 
 .project-heading {
-  color: #9EE493;
   align-self: center;
   box-sizing: border-box;
   border: 0 solid #e2e8f0;
-  font-size: 3rem;
-  text-decoration: #9EE493 dotted underline;
+  font-size: 2rem;
+  text-decoration: #9EE493 solid underline;
+  margin-bottom: 2rem;
 }
 
 .project-quote, .project-level {
   display: block;
-  padding: 4.44rem 0;
-  margin-bottom: 3.33rem;
-  border-top: 4px solid #6EA4BF;
+  box-sizing: border-box;
+  border: 0 solid #e2e8f0;
+  padding: 2rem 0;
+  border-top: 2px solid #6EA4BF;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 800;
 }
 
+.example-project {
+  display: block;
+  border-top: 0.2rem solid #6EA4BF;
+  text-align: center;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #9EE493;
+}
+
+a:hover {
+  background-color: #6EA4BF;
+  cursor: pointer;
+}
+
+a:active {
+  text-decoration: none;
+  background-color: #6EA4BF;
+  color: #2E3C7E;
+}
