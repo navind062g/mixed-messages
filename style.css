@@ -13,4 +13,68 @@ body {
   justify-content: center;
   overflow: hidden;
   height: 100vh;
+  background-color: #FBEAEB;
 }
+
+h1 {
+  color: #2E3C7E;
+  font-size: 4rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-next-idea {
+  margin: 30% auto;
+  background-color: #2E3C7E;
+  color: white;
+  margin: 2rem auto;
+  min-width: 150px;
+  min-height: 50px;
+  border-radius: 5px;
+  border-style: double;
+  border-color: black;
+  cursor: pointer;
+  font-size: large;
+}
+
+.get-next-idea:hover {
+  background-image: linear-gradient(to left, #2E3C7E, #FBEAEB);
+  border-color: #2E3C7E;
+}
+
+.project-details {
+  background-color: #2E3C7E;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80vh;
+  border-radius: 1rem;
+  padding: 5%;
+  box-shadow: 10px 10px 10px 10px rgb(192,192,192);
+}
+
+.project-heading {
+  color: #9EE493;
+  align-self: center;
+  box-sizing: border-box;
+  border: 0 solid #e2e8f0;
+  font-size: 3rem;
+  text-decoration: #9EE493 dotted underline;
+}
+
+.project-quote, .project-level {
+  display: block;
+  padding: 4.44rem 0;
+  margin-bottom: 3.33rem;
+  border-top: 4px solid #6EA4BF;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
