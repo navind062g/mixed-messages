@@ -37,7 +37,7 @@ class MessageModel {
 //Ten App Ideas
 const christmasLightsApp = new MessageModel(
     'Christmas Lights',
-    "The ChristmasLights application relies on your development talents to create a mesmerizing light display.<br> Your task is to draw seven colored circles in a row and based on a timer change the intensity of each circle.<br> When a circle is brightened it's predecessor returns to its normal intensity.", 
+    "The ChristmasLights application relies on your development talents to create a mesmerizing light display. Your task is to draw seven colored circles in a row and based on a timer change the intensity of each circle. When a circle is brightened it's predecessor returns to its normal intensity.", 
     'Beginner', 
     'Christmas Lights Using HTML, CSS and JS', 
     'https://codepen.io/irfanezani_/pen/mdeLpKo'

@@ -15,7 +15,7 @@ body {
   color: #9EE493;
 }
 
-h1 {
+h1, h3 {
   color: #2E3C7E;
 }
 
@@ -59,22 +59,43 @@ h1 {
 
 .project-heading {
   align-self: center;
+  font-size: 2rem;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
   box-sizing: border-box;
   border: 0 solid #e2e8f0;
-  font-size: 2rem;
-  text-decoration: #9EE493 solid underline;
-  margin-bottom: 2rem;
+   
+}
+
+.item-shadow {
+  display: block;
+  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+  box-sizing: inherit;
+  border: 0 solid #e2e8f0;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .project-quote, .project-level {
   display: block;
   box-sizing: border-box;
   border: 0 solid #e2e8f0;
-  padding: 2rem 0;
-  border-top: 2px solid #6EA4BF;
+  padding: 2rem 0;  
   text-align: center;
   font-size: 1rem;
   font-weight: 800;
+}
+
+.project-level {
+
+  border-top: 2px solid #6EA4BF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+i {
+  font-size: 4rem;
 }
 
 .example-project {
@@ -99,4 +120,31 @@ a:active {
   text-decoration: none;
   background-color: #6EA4BF;
   color: #2E3C7E;
+}
+
+.level {
+  color: #9EE493;
+  text-decoration: #9EE493 solid underline;
+}
+
+.frameworks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+  padding: 0.5rem;
+}
+
+.framework {
+  width: 7rem; /* or whatever width you want. */
+  max-width: 7rem; /* or whatever width you want. */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  color: white;
 }
