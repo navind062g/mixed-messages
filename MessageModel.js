@@ -53,7 +53,7 @@ const notesApp = new MessageModel(
 
 const podomoroClockApp = new MessageModel(
     'Pomodoro Clock',
-    "The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s.<br> The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks - 5 minutes", 
+    "The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks - 5 minutes", 
     'Beginner', 
     'Clock using React and SCSS', 
     'https://codepen.io/freeCodeCamp/pen/XpKrrW'
@@ -107,7 +107,7 @@ const flashCardsApp = new MessageModel(
 //09 Movie Database APP
 const movieDatabaseApp = new MessageModel(
     'Movie Database App',
-    "Find your next movie or create your watchlist with this App.<br> It include reviews, rating, actors and anything you need to know about the movie.", 
+    "Find your next movie or create your watchlist with this App. It include reviews, rating, actors and anything you need to know about the movie.", 
     'Advanced', 
     'Movie Database App w/ React by Oliver Gomes', 
     'https://github.com/pylnata/movie-browser-app'
@@ -116,7 +116,7 @@ const movieDatabaseApp = new MessageModel(
 //10 Survey App
 const surveryApp = new MessageModel(
     'Survey App',
-    "The Survey app gives you the opportunity to learn by developing a full-featured app that will you can add to your toolbox.<br> It provides the ability to define a survey, allow users to respond within a predefined timeframe, and tabulate and present results.", 
+    "The Survey app gives you the opportunity to learn by developing a full-featured app that will you can add to your toolbox. It provides the ability to define a survey, allow users to respond within a predefined timeframe, and tabulate and present results.", 
     'Advanced', 
     'React Survey App', 
     'https://github.com/chamatt/survey-web-app'

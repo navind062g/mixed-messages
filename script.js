@@ -11,36 +11,35 @@ function createHTMLObjectOfAppIdea(appIdea, framework) {
     <div class="project-quote">
         <q>${appIdea.description}</q>
     </div>
-    <div class="project-level">
-        <div>
-            Difficult Level <span class="level">${appIdea.difficultyLevel}</span>
+    <div class="skills-required">
+        <div class="skills-label">Skills Required</div>
+        <div class="level-container">
+            <div class="skills ${appIdea.difficultyLevel}">${appIdea.difficultyLevel}</div>
         </div>
-        <div>
-            <div class="item-shadow">
-                Technology Stack 
+    </div>
+    <div class="project-technology">
+        <div class="skills-label">Technology Stack</div>
+        <div class="frameworks">
+            <div class="framework project-database" style="background-color: ${framework.database.hex}">
+                <img height="64" width="64" src="${framework.database.imageSrc}" >
+                <span>${framework.database.name}</span>
             </div>
-            <div class="frameworks">
-                <div class="framework project-database" style="background-color: ${framework.database.hex}">
-                    <img height="64" width="64" src="${framework.database.imageSrc}" >
-                    <span>${framework.database.name}</span>
-                </div>
-                <div class="framework project-frontend" style="background-color: ${framework.frontend.hex}">
-                    <img height="64" width="64" src="${framework.frontend.imageSrc}" >
-                    <span>${framework.frontend.name}</span>
-                </div>
-                <div class="framework project-styling" style="background-color: ${framework.styling.hex}">
-                    <img height="64" width="64" src="${framework.styling.imageSrc}" >
-                    <span>${framework.styling.name}</span>
-                </div>
-                <div class="framework project-backend" style="background-color: ${framework.backend.hex}">
-                    <img height="64" width="64" src="${framework.backend.imageSrc}" >
-                    <span>${framework.backend.name}</span>
-                </div>
+            <div class="framework project-frontend" style="background-color: ${framework.frontend.hex}">
+                <img height="64" width="64" src="${framework.frontend.imageSrc}" >
+                <span>${framework.frontend.name}</span>
+            </div>
+            <div class="framework project-styling" style="background-color: ${framework.styling.hex}">
+                <img height="64" width="64" src="${framework.styling.imageSrc}" >
+                <span>${framework.styling.name}</span>
+            </div>
+            <div class="framework project-backend" style="background-color: ${framework.backend.hex}">
+                <img height="64" width="64" src="${framework.backend.imageSrc}" >
+                <span>${framework.backend.name}</span>
             </div>
         </div>
     </div>
-    <div class="example-project">Example: 
-        <a href="${appIdea.exampleLink}">${appIdea.exampleProject}</a>
+    <div class="example-project">
+        <em>Example => <a href="${appIdea.exampleLink}">${appIdea.exampleProject}</a></em>
     </div>`;
 }
 
